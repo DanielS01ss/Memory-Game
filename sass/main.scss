@@ -1,0 +1,245 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url('../images/download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-title{
+    font-family: 'Marck Script', cursive;
+    color:#fff;
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#data-about-game{
+    color:#fff;
+    font-size: 3rem;
+    padding-left: 5%;
+}
+
+#time{
+    font-size: 2.5rem;
+}
+
+.display-none{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s linear;
+}
+p{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    display: inline;
+}
+
+.main-content{
+    width: 50%;
+    margin: 0 auto;;
+}
+
+.ratings{
+    margin-left: 10%;
+}
+
+.restart-container{
+    margin-left: 5%;
+}
+
+.moves{
+    margin-left:5%;
+}
+
+#game-grid{
+    height: 700px;
+    width: 730px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+   padding:10px;
+}
+
+.card{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    border-radius: 5px;
+    justify-content: center;
+    -webkit-box-shadow: 0px -1px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 16px 0px rgba(0,0,0,0.75);
+    background-color:#1B1717;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: center;
+    color:#fff;
+     font-size: 3rem;
+     transition: all 0.4s ease-out;
+
+}
+
+.show{
+    transition: ease-in 1s;
+    background-color:#521eba;
+}
+
+.animation{
+    transform:rotateY(360deg);
+    transition: ease-out 1s;
+}
+
+i{
+    padding-top:45px;
+   
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.wrong{
+    animation: shake 0.5s;
+    background-color: red;
+}
+
+.not-displayed{
+    display:none;
+}
+
+.logo-intro{
+    position: relative;
+    margin-left: 20%;
+    margin-top:2%;
+}
+
+.start-dialog{
+ position: absolute;
+ width:700px;
+ height: 500px;
+ z-index: 1;
+ background-color: #fff;
+  left:27%;
+  top:10%;
+  border-radius: 15px;  
+}
+
+.intro-text{
+    font-family: 'Marck Script', cursive;
+    margin-left: 30%;
+
+}
+
+.start-btn{
+    border:1px solid #2633b2;
+    border-radius: 10px;
+    background-color: #2633b2;
+    color:#fff;
+    margin-left: 32%;
+    margin-top:20%;
+    font-size: 30px;
+    padding: 20px 70px 20px 70px;
+
+}
+
+.win{
+    
+    background-color: #7dd957;
+    font-size: 3px;
+    transition: transform 1s;
+    transform: rotate(360deg);
+}
+
+.start-btn:hover{
+    font-size: 32px;
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(125,16,125,1);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(125,16,125,1);
+    -shadow: 0px 0px 20px -1px rgba(125,16,125,1);
+
+}
+.restart-container:hover{
+    cursor: pointer;
+}
+
+.game-over{
+    position: absolute;
+    background-color: #fff;
+    width: 700px;
+    height: 590px;
+    border-radius: 5px;
+    margin-top:5%;
+    margin-left:25%;
+}
+
+.outro-text{
+    font-family: 'Marck Script', cursive;
+    margin-left: 40%;
+}
+.score-text{
+    color:#000;
+    margin-left:10%;
+}
+
+.moves-text{
+    color:#000;
+    display: block;
+    margin-left:10%;
+}
+
+.end-game-text{
+    color:#000;
+    font-size: 30px;
+    margin-left:20%;
+    font-family: 'Pangolin', cursive;
+}
+.play-again-btn{
+    border:none;
+    border-radius:5px;
+    display: block;
+    margin-top:15%;
+    margin-left:33%;
+    padding: 20px;
+    background-color: #3b1cbc;
+    font-weight: bold;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+.play-again-btn:hover {
+   
+    font-size:31px;
+    -webkit-box-shadow: -1px 2px 34px 0px rgba(130,48,130,1);
+    -moz-box-shadow: -1px 2px 34px 0px rgba(130,48,130,1);
+    box-shadow: -1px 2px 34px 0px rgba(130,48,130,1);
+}
+
+
+.time-elapsed-container{
+    color:#000;
+    display: block;
+    margin-left:10%;
+}
+

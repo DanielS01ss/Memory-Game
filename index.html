@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel="stylesheet" href="/css/main.css">
+      <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+      <script src="https://use.fontawesome.com/7bbbcfac80.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+   </head>
+   <body>
+      <div class="game-over not-displayed">
+         <h1 class="outro-text">Game Over</h1>
+         <p class="score-text">Score:<span class="score-count"></span></p>
+         <p class="moves-text">Moves: <span id="moves-count"></span></p>
+         <p class="time-elapsed-container">Time elapsed:<span class="time-elapsed "></span></p>
+         <p class="end-game-text">You have a pretty good memory </p>
+         <button class="play-again-btn">Play again!</button>
+      </div>
+      <div class="start-dialog">
+         <img src="images/kid.jpeg"  class ="logo-intro" alt="">
+         <h1 class="intro-text">Test your memory!</h1>
+
+         <button class="start-btn">Start</button>
+      </div>
+      <div id="container" class="not-displayed">
+         <h1 class="main-title">Memory Game</h1>
+       <div class="main-content">
+         <div id="data-about-game">
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i> <span id="time" >0m 0s</span></p>
+            <p class="moves">Moves: <span id="moves">0</span></p>
+           <p class="ratings">
+              <span>★</span>
+              <span>★</span>
+              <span>★</span>
+           </p>
+           <p class="restart-container">
+              <span class="restart">↺</span>
+           </p>
+         </div>
+         <ul id="game-grid">
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            <li class="card"> <p class="display-none"></p></li>
+            
+            
+            
+         </ul>
+       </div>
+   
+      </div>
+       
+      <script src="app/app.js"></script>
+   </body>
+	
+</html>

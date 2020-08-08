@@ -1,0 +1,15 @@
+
+	- BUTON DE REPLAY LA GAME
+	- AMESTEC DE CARDS
+	- ANIMATII GRESEALA
+	- ANIMATII SUCCESS
+	- DIALOG CARE ANUNTA SUCCESSUL
+	- TIMP CAT A DURAT
+	- LA UN ANUME NUMAR DE SECUNDE SCAD STELULTELE
+	- LA FIECARE DOUA CARDURI DESCHISE AVEM O MISCARE
+	- MISCARILE SUNT LUATE IN CONT SI PUSE SUS
+	
+	-Mereu optiunea de refresh plus prezenta si la final unde ne :
+		1 reseteaza timpul
+		2 amesteca cartile
+		3 reseteaza stelutele
